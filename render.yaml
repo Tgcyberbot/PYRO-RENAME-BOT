@@ -13,4 +13,7 @@ services:
         sync: false
       - key: API_ID
         sync: false
-
+      - key: API_HASH
+        sync: false
+      - key: WEBHOOK
+        synv: false
