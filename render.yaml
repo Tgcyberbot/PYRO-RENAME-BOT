@@ -8,23 +8,23 @@ services:
     repo: https://github.com/PR0FESS0R-99/PYRO-RENAME-BOT.git
     branch: main
     envVars:
-      - key: BOT_TOKEN 
+      - key: BOT_TOKEN
         sync: false
-      - key: API_ID 
+      - key: API_ID
         sync: false
       - key: API_HASH
         sync: false
       - key: WEBHOOK
         synv: false
-      - key: FORCE_SUB 
+      - key: FORCE_SUB
         sync: false
-      - key: LOG_CHANNEL 
+      - key: LOG_CHANNEL
         sync: false
-      - key: DB_NAME 
+      - key: DB_NAME
         sync: false
-      - key: DB_URL 
+      - key: DB_URL
         sync: false
-      - key: START_PIC 
+      - key: START_PIC
         sync: false
-      - key: ADMIN 
+      - key: ADMIN
         sync: false
