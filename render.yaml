@@ -7,6 +7,7 @@ services:
     startCommand: python bot.py
     repo: https://github.com/PR0FESS0R-99/PYRO-RENAME-BOT.git
     branch: main
+    autoDeploy: false
     envVars:
       - key: BOT_TOKEN
         sync: false
