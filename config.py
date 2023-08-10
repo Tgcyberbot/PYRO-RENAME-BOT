@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "24131567")
+    API_HASH  = os.environ.get("API_HASH", "7bf12fc2ec81ba350bca34c014549bee")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6317233810:AAGw6WdqLZgI06BOxky0Oayi6-qANBwcffU") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","kalu")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://tgcyberbot:<Lockrock>@kalu.blpeoeh.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '427348392').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "testiung") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
